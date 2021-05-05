@@ -29,7 +29,7 @@ public class Task1_2 {
          */
         int[] intArray = { 10, 20, 30, 40, 50 };
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [int型の配列intArrayの２番目の要素と３番目の要素をつなぎ合わせた値を出力している]
+        // [int型の配列intArrayの２番目の要素と5番目の要素をつなぎ合わせた値を出力している]
         System.out.println(intArray[1] + intArray[4]);
 
     }
