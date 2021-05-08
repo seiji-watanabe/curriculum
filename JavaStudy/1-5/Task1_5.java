@@ -40,11 +40,7 @@ public class Task1_5 {
           String MotherNumber = j + " || ";
           System.out.print(MotherNumber);
           for (int k = 1;k < 10;k++){
-            if (k == 9) {
-              System.out.println(j*k + " | ");
-            }else {
-              System.out.print(j*k + " | ");
-            }
+            System.out.println(j*k + " | ");
           }
         }
     }
