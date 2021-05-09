@@ -39,13 +39,13 @@ public class Task1_4 {
 
         // ② 「name」の値が「USER_NAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
         //      定数を使用して「 ログイン成功です 」と出力してください。
-        if (name.equals(USER_NAME) && pass.equals(USER_PASSWORD){
+        if (name.equals(USER_NAME) && pass.equals(USER_PASSWORD)){
           System.out.println(CONST_MSG_SUCCESS);
-        } else if (name.equals(USER_NAME) {
+        } else if (name.equals(USER_NAME)) {
           // ③ 「USER_NAME」の値のみ等しい場合。
           //     定数を使用して「 パスワードに誤りがあります。 」 と出力してください。
           System.out.println(CONST_MSG_ERROR_PASS);
-        }else if (pass.equals(USER_PASSWORD) {
+        }else if (pass.equals(USER_PASSWORD)) {
           // ④ 「USER_PASSWORD」の値のみ等しい場合。
           //定数を使用して「 名前に誤りがあります。 」と出力してください。
           System.out.println(CONST_MSG_ERROR_NAME);
