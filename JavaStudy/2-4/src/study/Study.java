@@ -18,7 +18,8 @@ public class Study {
          *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
          */
 		String fruits = FruitsConstants.FRUITS_LEMON_04;
-		Fruits.printFruits(fruits,20);
+		int number = FruitsConstants.FRUITS_COUNT_20;
+		Fruits.printFruits(fruits,number);
 	}
 
 }
