@@ -18,10 +18,8 @@ public class Study {
          *     また、課題の画像と同じ表示になるように
          *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
          */
-		String fruitsName =FruitsConstants.FRUITS_LEMON_04;
-		Integer FruitsAmount = FruitsConstants.FRUITS_COUNT_20;
-		System.out.println("食べ物は" + fruitsName);
-		System.out.println(FruitsAmount  + "個");
+		System.out.println("食べ物は" + FruitsConstants.FRUITS_LEMON_04);
+		System.out.println(FruitsConstants.FRUITS_COUNT_20  + "個");
 	}
 
 }
